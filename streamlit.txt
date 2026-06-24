@@ -1,0 +1,6 @@
+streamlit
+underthesea
+transformers
+torch
+torchvision
+nltk
