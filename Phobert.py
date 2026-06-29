@@ -61,8 +61,8 @@ def process_text_and_filter(text):
             has_changed = True
 
     # từ bình thường 
-    else: 
-        corrected_tokens.append(token)
+        else: 
+            corrected_tokens.append(token)
 
     #ghép lại thành câu chuẩn khoảng trắng        
     final_text = detokenizer.detokenize(corrected_tokens) # hàm detokenize() để ghép các token lại thành câu chuẩn khoảng trắng
